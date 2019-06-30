@@ -1,0 +1,113 @@
+body,
+html {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    position: relative;
+    overflow: hidden;
+}
+
+
+.navbar 
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 58px;
+    box-shadow: -4px 2px 16px -9px;
+    background: #2F2E50;
+}
+
+#road-safety-logo
+{
+    float: left;
+    width: 209px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.navbar > p 
+{
+    color: #FFFFFF;
+    margin-left: 38%;
+    margin-top: 18px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 23px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+.main
+{
+    background: grey;
+    margin-top: 58px;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+}
+
+.learn 
+{
+
+    width: 1180.67px;
+    height: 1851px;
+    margin-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: hsla(0, 0%, 100%, 1);
+    top: 8%;
+    left: 4%;
+    margin-right: 100px;
+    margin-left: 123px; 
+ 
+}
+
+.learn > h3 
+{
+    font-size: 30px;
+    color: #2F2E50;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-left: 37%;
+    margin-top: 10px;
+}
+
+.learn >p
+{
+    font-size: 18px;
+    color: hsla(242, 16%, 31%, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: 2px solid goldenrod;
+    width: 83%;
+    height: 5%;
+    margin-left: 115px;
+    margin-right: 90px;
+    text-align: center;
+
+}
+
+#line
+{
+    margin-left: 106px;
+}
+
+#traffic
+{
+    float: left;
+    width: 25%;
+    margin-left: 10%; 
+
+}
+
+#walk 
+{
+    
+    width: 295px;
+    margin-left: 5%; 
+    height: 295px;
+}
