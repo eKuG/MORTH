@@ -185,20 +185,17 @@ footer {
 }
 
 .contact {
-  margin-left: 132px;
-  margin-top: 32.42px;
+  padding: 20px;
   width: 35%;
 }
 
 .road {
-  margin-right: -187px;
-  margin-top: 62.42px;
-  width: 30%;
+text-align: center;
+padding: 20px;
 }
 
 .mission {
-  margin-left: 400px;
-  margin-top: 32.42px;
+  text-align: center;
   width: 37%;
 }
 
@@ -330,7 +327,18 @@ footer {
   }
 
   footer {
-    display: block;
+    margin: inherit;
+    flex-direction: column;
+    height : auto;
+  }
+  footer .mission {
+    width : 100%;
+    padding : 20px;
+    margin : auto;
+  }
+
+  .mission h2 , .mission p , .mission img {
+    margin : 0
   }
 
   .road {
@@ -370,8 +378,3 @@ footer {
 }
 
 
-/* ramdev se puch ki neeche ka jo grey area h usse kaise hataye. Ruk main poochta hun.
-also .learn waali div niche ho rhi h usse upar kaise karu?
-uski height kabhi change hi nhi hoti h.
-aur footer ki height ab niche se badh rhi h to gap nhi aa rha upar 
-wtf man ye kya ho gya?*/
