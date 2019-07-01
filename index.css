@@ -46,7 +46,7 @@ img {
 .main {
   width: 2020px;
   height: 1797px;
-  background: grey;
+  background: #F0F0F7;
   margin-top: 58px;
   height: 100vh;
   width: 100vw;
@@ -64,14 +64,14 @@ img {
   padding: 40px;
   box-sizing: border-box;
   background-color: white;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3); */
   margin: auto;
 }
 
 .learn>h3 {
   /* margin-left: 33.5%; */
   margin-top: 10px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   /* color: #E96266; */
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
@@ -92,13 +92,6 @@ img {
   text-align: center;
 }
 
-/* 
-.flex {
-    display: flex;
-    align-items: center;
-    max-height: 65vh;
-    height: 100%;
-} */
 
 .container {
   display: block;
@@ -269,9 +262,9 @@ footer {
   margin-left: -18%;
 }
 
-@media and screen(min-width:1448px) {
+@media (min-width:1448px) {
   #photo2 {
-    height: 220px;
+    height: 312px;
   }
 }
 
@@ -282,10 +275,17 @@ footer {
 @media (max-width:767px) {
 
   .navbar>p {
-    margin-left: 13px;
+    /* margin-left: 13px;
     font-size: 14px;
     display: block;
-    margin-top: 63px;
+    margin-top: 63px; */
+    color: #ffffff;
+    margin-left: 38%;
+    margin-top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 2px;
   }
 
   .learn>h3 {
@@ -347,10 +347,31 @@ footer {
     margin-left: 4px;
     max-width: 95%;
   }
-
-
-
-
-
-
 }
+
+@media (max-width:500px)
+{
+  .navbar p{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  #road-safety-logo {
+    float: left;
+    width: 159px;
+    height: 35px;
+    margin-top: 13px;
+}
+
+#photo2
+{
+  height: 429px;
+}
+}
+
+
+/* ramdev se puch ki neeche ka jo grey area h usse kaise hataye. Ruk main poochta hun.
+also .learn waali div niche ho rhi h usse upar kaise karu?
+uski height kabhi change hi nhi hoti h.
+aur footer ki height ab niche se badh rhi h to gap nhi aa rha upar 
+wtf man ye kya ho gya?*/
